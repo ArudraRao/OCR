@@ -1,0 +1,14 @@
+Framework Shit to download:
+
+    get github acc
+        send usernames
+    get visual studio code/any IDE
+    get github desktop/sourcetree
+    create a branch, name it with your name
+
+Reading shit we need to do:
+
+    OCR basics + OCR rfamework
+    python
+    pytesseract
+    probably google vision API 
