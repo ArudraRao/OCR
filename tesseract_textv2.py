@@ -1,3 +1,5 @@
+#Author: Arudra Rao
+
 import re
 import cv2
 import pytesseract
