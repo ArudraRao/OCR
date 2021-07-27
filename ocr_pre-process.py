@@ -13,11 +13,13 @@ def remove_noise(image):
 #thresholding
 def thresholding(image):
     return cv2.threshold(image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
-#dilation
+#dilation:  adds pixels to the boundaries of objects in an image, while erosion removes pixels on object boundaries.  
+# The rule used to process the pixels defines the operation as a dilation or an erosion
 def dilate(image):
     kernel = np.ones((5,5),np.uint8)
     return cv2.dilate(image, kernel, iterations = 1)
-#erosion
+#erosion: morphological image processing from which all other morphological operations are based. 
+# It was originally defined for binary images, later being extended to grayscale images, and subsequently to complete lattices.
 def erode(image):
     kernel = np.ones((5,5),np.uint8)
     return cv2.erode(image, kernel, iterations = 1)
