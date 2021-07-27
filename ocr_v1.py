@@ -1,4 +1,4 @@
-#authors: Arudra Rao
+#Author: Arudra Rao
 #notes: image locater issue, var image present in 
 # 			arg parser, 
 # 			greyscale conversion, 
