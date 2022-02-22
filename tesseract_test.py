@@ -3,7 +3,7 @@
 import cv2
 import pytesseract
 from pytesseract import Output
-
+d
 #in_example includes bound box examples
 img = cv2.imread('in_example.jpg')
 
@@ -20,3 +20,20 @@ for i in range(n_boxes):
 
 cv2.imshow('img', img)
 cv2.waitKey(0)
+
+
+
+#osamu, from osamacorp, cyborg, oxygen makes me lose rationality so i always have a mask on, 
+#sociopathic senses increase at mask loss, major hate for AI, bounty hunter for only AI,
+#likes lego walls
+#Sociopathy: indentified by right index finger twitch
+#drugs calm me down
+#augmentations: one arm, both legs, eye (figuring if there is a bounty or not) + increased insanity
+#weapons: Guns + Laser Knife
+# 
+#  
+#nestle: AI area
+#Arasaka: human area
+#osama: no onne gives a fuck
+#
+#my nnew mark: B370 leg set, a major associate in the nestle company
